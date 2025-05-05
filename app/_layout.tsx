@@ -6,8 +6,8 @@ import {
 import { StatusBar } from "expo-status-bar";
 import "react-native-reanimated";
 
+import { LoginContainer } from "@/src/containers/Login";
 import { ThemeProvider } from "@/theme/ThemeContext";
-import LoginContainer from "./container/LoginContainer";
 
 export default function RootLayout() {
   const [fontsLoaded] = useFonts({
